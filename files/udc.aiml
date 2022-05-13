@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+<category>
+    <pattern>*</pattern>
+    <template>Salve, di cosa hai bisogno:
+        <ul>
+            <li>Acquistare un dispositivo</li>
+            <li>Garanzia prodotti</li>
+            <li>Supporto tecnico</li>
+            <li>info e servizi</li>
+        </ul>
+    </template>
+</category>
+<category>
+    <pattern>Garanzia prodotti</pattern>
+    <pattern>garanzia prodotti</pattern>
+    <template>Garanzie sui dispositivi e servizi Apple:
+        <button>
+            <text>garanzia Apple</text>
+            <url>https://checkcoverage.apple.com/it/it/</url>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>Supporto tecnico</pattern>
+    <pattern>supporto tecnico</pattern>
+    <template>Servizio di supporto tecnico e contatto ai tecnici specializzati
+        <button>
+            <text>Supporto tecnico</text>
+            <url>https://support.apple.com/it-it/contact</url>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>Acquistare un dispositivo</pattern>
+    <pattern>acquistare un dispositivo</pattern>
+    <pattern>acquistare</pattern>
+    <template>Che tipo di dispositivo :
+        <ul>
+            <li>iMac</li>
+            <li>Iphone</li>
+            <li>Ipad</li>
+            <li>Apple watch</li>
+            <li>AirPods</li>
+            <li>Apple TV</li>
+            <li>Accessori</li>
+        </ul>
+    </template>
+</category>
+<category>
+    <pattern>iMac</pattern>
+    <pattern>imac</pattern>
+    <template>Quale modello?
+        <link>
+            <text>Macbook Air</text>
+            <url>https://www.apple.com/it/macbook-air/</url>
+        </link>
+        <link>
+            <text>Macbook Pro</text>
+            <url>https://www.apple.com/it/macbook-pro/</url>
+        </link>
+        <link>
+            <text>iMac 24"</text>
+            <url>https://www.apple.com/it/imac-24/</url>
+        </link> 
+        <link>
+            <text>mac-mini</text>
+            <url>https://www.apple.com/it/mac-mini/</url>
+        </link>   
+        <link>
+            <text>Mac Studio</text>
+            <url>https://www.apple.com/it/mac-studio/</url>
+        </link> 
+        <link>
+            <text>Mac Pro</text>
+            <url>https://www.apple.com/it/mac-pro/</url>
+        </link> 
+        <link>
+            <text>Display</text>
+            <url>https://www.apple.com/it/displays/</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Ipad</pattern>
+    <pattern>ipad</pattern>
+    <template>Quale modello?
+        <link>
+             <text>Ipad Pro</text>
+            <url>https://www.apple.com/it/ipad-pro/</url>
+        </link> 
+        <link>
+            <text>Ipad Air</text>
+            <url>https://www.apple.com/it/ipad-air/</url>
+        </link> 
+        <link>
+            <text>Ipad 9</text>
+            <url>https://www.apple.com/it/ipad-10.2/</url>
+        </link>   
+        <link>
+            <text>Ipad mini</text>
+            <url>https://www.apple.com/it/ipad-mini/</url>
+        </link>   
+        <link>
+            <text>Apple Pencil</text>
+            <url>https://www.apple.com/it/apple-pencil/</url>
+        </link>   
+        <link>
+            <text>Tastiere</text>
+            <url>https://www.apple.com/it/ipad-keyboards/</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Iphone</pattern>
+    <pattern>iphone</pattern>
+    <template>Quale modello?
+        <link>
+             <text>Iphone 13 Pro</text>
+            <url>https://www.apple.com/it/iphone-13-pro/</url>
+        </link>    
+        <link>
+             <text>Iphone 13</text>
+            <url>https://www.apple.com/it/iphone-13/</url>
+        </link>
+        <link>
+             <text>Iphone 12</text>
+            <url>https://www.apple.com/it/iphone-12/key-features/</url>
+        </link>
+        <link>
+             <text>Iphone 11</text>
+            <url>https://www.apple.com/it/shop/buy-iphone/iphone-11</url>
+        </link>
+        <link>
+             <text>Iphone SE 3 generazione</text>
+            <url>https://www.apple.com/it/iphone-se/</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Apple watch</pattern>
+    <pattern>apple watch</pattern>
+    <template>Quale modello?
+        <link>
+             <text>Apple Watch 7</text>
+            <url>https://www.apple.com/it/apple-watch-series-7/</url>
+        </link>
+        <link>
+             <text>Apple Watch SE</text>
+            <url>https://www.apple.com/it/apple-watch-se/</url>
+        </link>
+        <link>
+             <text>Apple Watch 3</text>
+            <url>https://www.apple.com/it/apple-watch-series-3/</url>
+        </link>
+        <link>
+             <text>Apple Watch x Nike</text>
+            <url>https://www.apple.com/it/apple-watch-nike/</url>
+        </link>
+        <link>
+             <text>Apple Watch Studio</text>
+            <url>https://www.apple.com/it/shop/studio/apple-watch</url>
+        </link>
+        <link>
+             <text>Cinturini</text>
+            <url>https://www.apple.com/it/shop/watch/bands</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>AirPods</pattern>
+    <pattern>Airpods</pattern>
+    <pattern>airpods</pattern>
+    <template>Quale modello?
+        <link>
+             <text>AirPods 2 generazione</text>
+            <url>https://www.apple.com/it/airpods-2nd-generation/</url>
+        </link>
+        <link>
+             <text>AirPods 3 generazione</text>
+            <url>https://www.apple.com/it/airpods-3rd-generation/</url>
+        </link>
+        <link>
+             <text>AirPods Pro</text>
+            <url>https://www.apple.com/it/airpods-pro/</url>
+        </link>
+        <link>
+             <text>AirPods Max</text>
+            <url>https://www.apple.com/it/airpods-max/</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Apple TV</pattern>
+    <pattern>apple tv</pattern>
+    <template>Quale modello?
+        <link>
+             <text>Apple TV 4k</text>
+            <url>https://www.apple.com/it/apple-tv-4k/</url>
+        </link>
+        <link>
+             <text>Apple TV HD</text>
+            <url>https://www.apple.com/it/shop/buy-tv/apple-tv-hd/32gb</url>
+        </link>
+        <link>
+             <text>HomePod mini</text>
+            <url>https://www.apple.com/it/homepod-mini/</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Accessori</pattern>
+    <pattern>accessori</pattern>
+    <template>Che categoria di accessorio cerchi?
+        <link>
+             <text>AirTag</text>
+            <url>https://www.apple.com/it/airtag/</url>
+        </link>
+        <link>
+             <text>Cover</text>
+            <url>https://www.apple.com/it/shop/accessories/all/cases-protection</url>
+        </link>
+        <link>
+             <text>Cavi e adattatori</text>
+            <url>https://www.apple.com/it/shop/accessories/all/power-cables</url>
+        </link>
+        <link>
+             <text>design</text>
+            <url>https://www.apple.com/it/shop/accessories/all/creativity</url>
+        </link>
+        <link>
+             <text>Tastiere</text>
+            <url>https://www.apple.com/it/shop/accessories/all/mice-keyboards</url>
+        </link>
+        <link>
+             <text>Droni</text>
+            <url>https://www.apple.com/it/shop/accessories/all/drones</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Info e servizi</pattern>
+    <pattern>info e servizi</pattern>
+    <pattern>info</pattern>
+    <template>Quale potrebbe esserti più utile?
+        <link>
+            <text>Apple Pay</text>
+            <url>https://www.apple.com/it/apple-pay/</url>
+        </link>
+        <link>
+            <text>Icloud</text>
+            <url>https://www.apple.com/it/icloud/</url>
+        </link>
+        <link>
+            <text>Apple Music</text>
+            <url>https://www.apple.com/it/apple-music/</url>
+        </link>
+         <link>
+            <text>Apple Tv</text>
+            <url>https://www.apple.com/it/apple-tv-plus/</url>
+        </link>
+        </template>
+</category>
+</aiml>
